@@ -1,116 +1,154 @@
+/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
   background-color: #29292E;
   font-family: "Alice", serif;
   line-height: 150%;
-  color: #333333;
+  color: #664300;
 }
 
+/* Responsive container setup */
 body { 
-  background-color: #F5F4F0;
-}
-
-#page {
-  box-sizing: border-box;
-  background-color: #F5F4F0;
-  width: 800px;
-}
-
-#intro {
-  text-items: center;
-}
-
-#intro div {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  background-color: #ECE8DF;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* Flexible content sections */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Responsive images */
+.image-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.img_intro, .img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border-radius: 28px;
+  object-fit: cover;
+}
+
+/* Responsive typography */
+h1 {
+  font-size: clamp(24px, 5vw, 36px);
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: clamp(20px, 4vw, 32px);
+  margin: 16px 0;
+}
+
+h3 {
+  font-size: clamp(18px, 3.5vw, 28px);
+  margin: 14px 0;
+}
+
+.headline {
+  font-size: clamp(14px, 2vw, 16px);
+  color: #e1624f;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Responsive list styling */
+.responsive-list {
+  width: 100%;
+  list-style-position: inside;
+  padding: 20px 0;
+}
+
+.list-item-container {
+  margin-bottom: 40px;
+}
+
+/* Divider styling */
 .divider {
   width: 100%;
   height: 1px;
   margin: 36px 0;
-  background-color: #d9d9d9;
+  background-color: #F2DFB4;
 }
 
-main div img {
-  height: 375px;
-  object-fit: cover; /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
-  margin-top: 44px;
-  padding-top: 8px;
-}
-
-h1 {
-  font-size: 36px;
-  font-weight: bold;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-h2 {
-  font-size: 32px;
-  font-weight: bold;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-h3 {
-  font-size: 28px;
-  font-weight: bold;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.headline {
-  font-size: 16px;
-  line-height: 22px;
-  font-weight: bold;
-  color: #e1624f;
-  text-transform: uppercase;
-}
-
-.img_intro {
-  width: 900px;
-  height: auto;
-}
-
-.img {
-  width: 900px;
-  height: auto;
-}
-
-img {
-  border-radius: 28px;
-  padding: 2px 2px;
-}
-
-p{
-  font-size: 16px;
-  font-style: normal;
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
-
-.subtitle {
-  font-size: 16px;
-  line-height: 22px;
-  font-style: italic; /* Muda estilo da fonte para itálico */
-  text-align: center;
-  color: #333333;
-  margin-top: 24px;
-}
-
-
+/* Footer styling */
 footer {
   text-align: center;
-  padding-bottom: 48px;
+  padding: 40px 0;
+  width: 100%;
 }
 
 footer img {
   vertical-align: middle;
+  margin: 0 5px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .img_intro, .img {
+    border-radius: 15px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  
+  .responsive-list {
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 10px;
+  }
+  
+  .img_intro, .img {
+    border-radius: 10px;
+  }
+  
+  .divider {
+    margin: 24px 0;
+  }
+  
+  footer {
+    padding: 20px 0;
+  }
 }
