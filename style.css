@@ -32,7 +32,7 @@ body {
 .flex-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   width: 100%;
 }
 
@@ -56,7 +56,7 @@ body {
   width: 100%;
   height: 660px;
   border-radius: 28px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .img {
@@ -69,7 +69,7 @@ body {
 /* Responsive typography */
 h1 {
   font-size: clamp(24px, 5vw, 36px);
-  text-align: center;
+  text-align: left;
   margin: 20px 0;
 }
 
@@ -83,11 +83,13 @@ h3 {
   margin: 14px 0;
 }
 
+
+
 .headline {
   font-size: clamp(14px, 2vw, 16px);
   color: #e1624f;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   margin: 10px 0;
 }
 
@@ -98,8 +100,33 @@ h3 {
   padding: 20px 0;
 }
 
+.goodfor {
+  width: 100%;
+  padding: 20px 20px;
+}
+
 .list-item-container {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+/* Modifica o marcador do primeiro item */
+.goodfor li:nth-child(1)::marker {
+  color: red;
+}
+
+/* Modifica o marcador do segundo item */
+.goodfor li:nth-child(2)::marker {
+  color: blue;
+}
+
+/* Modifica o marcador do terceiro item */
+.goodfor li:nth-child(3)::marker {
+  color: green;
+}
+
+/* Modifica o marcador do quarto item */
+.goodfor li:nth-child(4)::marker {
+  color: purple;
 }
 
 /* Divider styling */
