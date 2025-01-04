@@ -100,32 +100,32 @@ h3 {
   padding: 20px 0;
 }
 
-.goodfor {
-  width: 100%;
-  padding: 20px 20px;
-}
-
 .list-item-container {
   margin-bottom: 20px;
 }
 
+ul {
+  width: 100%;
+  padding: 10px 20px;
+}
+
 /* Modifica o marcador do primeiro item */
-.goodfor li:nth-child(1)::marker {
+ul li:nth-child(1) {
   color: red;
 }
 
 /* Modifica o marcador do segundo item */
-.goodfor li:nth-child(2)::marker {
+ul li:nth-child(2) {
   color: blue;
 }
 
 /* Modifica o marcador do terceiro item */
-.goodfor li:nth-child(3)::marker {
+ul li:nth-child(3) {
   color: green;
 }
 
 /* Modifica o marcador do quarto item */
-.goodfor li:nth-child(4)::marker {
+ul li:nth-child(4) {
   color: purple;
 }
 
