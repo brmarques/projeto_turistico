@@ -12,8 +12,6 @@ Você vai desenvolver uma página web com informações sobre um determinado loc
 
 ## Descrição do desafio
 
-![Thumbnail.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/08f749ff-d06d-49a8-a488-9846e081b224/86c8ae46-7958-4e40-bbaa-7aa3d54f1250/Thumbnail.png](https://img.notionusercontent.com/s3/prod-files-secure%2F08f749ff-d06d-49a8-a488-9846e081b224%2F86c8ae46-7958-4e40-bbaa-7aa3d54f1250%2FThumbnail.png/size/w=1420?exp=1736349140&sig=hhNcmFE64mfLgH3TdgCfvS8AVP0Uf_AB3oYCgfhui2M)
-
 <aside>
 💜 [Acesse o **link** do Figma aqui.](https://www.figma.com/community/file/1384542229391733447/local-turistico)
 
