@@ -109,22 +109,22 @@ ul {
   padding: 10px 20px;
 }
 
-/* Modifica o marcador do primeiro item */
+/* Modifies the first item */
 ul li:nth-child(1) {
   color: red;
 }
 
-/* Modifica o marcador do segundo item */
+/* Modifies the second item */
 ul li:nth-child(2) {
   color: blue;
 }
 
-/* Modifica o marcador do terceiro item */
+/* Modifies the third item */
 ul li:nth-child(3) {
   color: green;
 }
 
-/* Modifica o marcador do quarto item */
+/* Modifies the fourth item */
 ul li:nth-child(4) {
   color: purple;
 }
