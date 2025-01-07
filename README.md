@@ -19,45 +19,21 @@ Você vai desenvolver uma página web com informações sobre um determinado loc
 
 Nessa aplicação você vai trabalhar com:
 
-<aside>
-<img src="/icons/checkmark-line_purple.svg" alt="/icons/checkmark-line_purple.svg" width="40px" /> Estrutura HTML;
+<aside>Estrutura HTML;</aside>
 
-</aside>
+<aside>Estilizações com CSS;</aside>
 
-<aside>
-<img src="/icons/checkmark-line_purple.svg" alt="/icons/checkmark-line_purple.svg" width="40px" /> Estilizações com CSS;
+<aside>Fontes;</aside>
 
-</aside>
+<aside>Espaçamentos;</aside>
 
-<aside>
-<img src="/icons/checkmark-line_purple.svg" alt="/icons/checkmark-line_purple.svg" width="40px" /> Fontes;
+<aside>Imagens;</aside>
 
-</aside>
+<aside>Listas desordenadas;</aside>
 
-<aside>
-<img src="/icons/checkmark-line_purple.svg" alt="/icons/checkmark-line_purple.svg" width="40px" /> Espaçamentos;
+<aside>Alterações das cores dos textos;</aside>
 
-</aside>
-
-<aside>
-<img src="/icons/checkmark-line_purple.svg" alt="/icons/checkmark-line_purple.svg" width="40px" /> Imagens;
-
-</aside>
-
-<aside>
-<img src="/icons/checkmark-line_purple.svg" alt="/icons/checkmark-line_purple.svg" width="40px" /> Listas desordenadas;
-
-</aside>
-
-<aside>
-<img src="/icons/checkmark-line_purple.svg" alt="/icons/checkmark-line_purple.svg" width="40px" /> Alterações das cores dos textos;
-
-</aside>
-
-<aside>
-<img src="/icons/checkmark-line_purple.svg" alt="/icons/checkmark-line_purple.svg" width="40px" /> Alterações dos pesos dos textos;
-
-</aside>
+<aside>Alterações dos pesos dos textos;</aside>
 
 ## Dicas
 
@@ -139,7 +115,6 @@ Ex.:
 
 Lembrando que deve adicionar essa opção quando busca a fonte no Google Fonts
 
-![Captura de Tela 2024-06-17 às 12.40.24.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/08f749ff-d06d-49a8-a488-9846e081b224/d9625129-b656-4c7d-86c3-cc4de96b2862/Captura_de_Tela_2024-06-17_as_12.40.24.png)
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -154,8 +129,6 @@ Você pode usar este código para importar a fonte no seu projeto.
 Em alguns casos quando ajustamos a altura da imagem ela pode ficar um pouco distorcida.
 
 Isso pode acontecer no caso das imagens dessa sessão:
-
-![Captura de Tela 2024-06-17 às 12.43.54.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/08f749ff-d06d-49a8-a488-9846e081b224/e378a218-c849-4b83-9f47-befcf5db345e/Captura_de_Tela_2024-06-17_as_12.43.54.png)
 
 Uma forma de corrigir esse problema é adicionar a propriedade `object-fit` no CSS dessa imagem.
 
@@ -174,8 +147,6 @@ main div img {
 ### Bullet da lista com cor diferente do texto
 
 Se você notar bem, neste desafio vai ver que o bullet da lista tem uma cor diferente da cor do texto.
-
-![Captura de Tela 2024-06-17 às 12.49.19.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/08f749ff-d06d-49a8-a488-9846e081b224/3f7a5e7d-6a23-47c9-ba9d-cf86a78c36a7/Captura_de_Tela_2024-06-17_as_12.49.19.png)
 
 Uma forma de resolver isso é usar o `::marker` que é um pseudo-elemento, mas não se preocupe, você ainda vai aprender sobre isso nos módulos futuros, por hora, pode usar a dica abaixo:
 
